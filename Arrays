@@ -1,0 +1,12 @@
+public class Arrays {
+    public static void main(String[] args) {
+        int[][] m= new int[2][4];
+        int b=10;
+        for(int i=0;i<m.length;i++){
+            for(int j=0;j<m[i].length;j++){
+                m[i][j]=b;
+                b+=10;
+            }
+        }   
+    }   
+}
