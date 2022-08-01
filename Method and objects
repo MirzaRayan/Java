@@ -1,0 +1,31 @@
+class A{
+
+    int i;
+    int j;
+    int method1(){
+    return i+j;
+    }
+    method2(){
+
+       System.out.println("He is running!");
+
+    }
+    method3(){
+
+        System.out.println("He is eating");
+    }
+}
+class B extends A{
+
+    
+}
+public class seventh{
+    public static void main(String[] args) {
+       B obj=new B();
+    //    objB.i=10;
+    //    objB.j=20;
+       
+       objB.method2();
+       objB.method3(); 
+    }
+}
