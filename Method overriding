@@ -1,0 +1,17 @@
+public class second {
+    static int plusmethodint(int a,int b){
+
+        return a+b;
+
+    }  
+    static float plusmethodint(float a,float b){
+
+        return a+b;
+    }
+    public static void main(String[] args) {
+        int intnumber=plusmethodint(15,45);
+        float floatnumber=plusmethodint(2.25f,6.75f);
+        System.out.println("int added number's are:"+intnumber);
+        System.out.println("float added number's are:"+floatnumber);
+    }
+}
