@@ -1,0 +1,17 @@
+public class Main{
+static void mystaticmethod(){
+
+    System.out.println("This method can be called without creating an object");
+
+}
+public void mypublicmethod(){
+
+    System.out.println("This mathod ia called is called by creating an object");
+
+}
+public static void main(String[] args) {
+    mystaticmethod();
+    mypublicmethod obj=new mypublicmethod();
+    obj.mypublicmethod();
+}
+}
