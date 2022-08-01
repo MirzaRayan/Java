@@ -1,0 +1,43 @@
+public class first{
+
+    static int division(int r,int c){
+        return r/c+8;
+    }
+    static int multiple(int a,int b){
+        return a*b;
+    }
+    static int add(int x){
+
+        return x+20;
+    }
+    static float subtract(float y){
+        return y-10;
+    }
+    static void mymethod(String Rayan,int age){
+        System.out.println(Rayan+" age is " +age);
+    }
+    static void Checkage(int age){
+        if(age>18){
+            System.out.println("you are old enough to drive....");
+        }
+        else{
+            System.out.println("you are not old enough to dirve....");
+        }
+    }
+  
+    public static void main(String[] args) {
+        int z=division(4,2);
+        System.out.println(z);
+        System.out.println(multiple(10,20));
+        System.out.println(add(10));
+        System.out.println(subtract(30));
+        mymethod("Noor khan's",19);
+        mymethod("Sarmad's",18);
+        mymethod("Hassan's",18);
+        Checkage(20);
+        Checkage(17);
+        
+       
+        
+    }
+}
