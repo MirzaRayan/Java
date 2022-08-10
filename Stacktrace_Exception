@@ -1,0 +1,19 @@
+public class Stacktrace_Exception {
+    public static void main(String[] args) {
+        int a=10,b=0,c;
+        try{
+        c=a/b;
+        System.out.println(c);    
+        }
+        catch(ArithmeticException e){
+            e.printStackTrace();
+        }
+        System.out.println("This is the end of program....");
+    }
+}
+/** Stacktrace method prints
+1.Exception name
+2.Description
+3.Stacktrace **/
+
+// It is the most effective method for printing exception
