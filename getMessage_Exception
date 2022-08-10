@@ -1,0 +1,16 @@
+public class getMessage_Exception {
+    public void main(String []args){
+        int a=1000,b=0,c;
+        try{
+            c=a/b;
+            System.out.println(c);
+        }
+        catch(ArithmeticException e){
+            System.out.println(e.getMessage());
+        }
+        System.out.println("This is the end of the program....");
+    }
+}
+
+/** getMessage method prints
+1.Description or Message  **/
