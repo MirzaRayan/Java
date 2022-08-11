@@ -1,0 +1,12 @@
+import javax.swing.*;
+public class Radio_Button {
+    public static void main(String[] args) {
+        JFrame f=new JFrame();
+        JRadioButton r=new JRadioButton("Name");
+        r.setBounds(100,200,50,50);
+        f.add(r);
+        r.setSize(400,400);
+        f.setLayout(null);
+        f.setVisible(true);
+    }
+}
