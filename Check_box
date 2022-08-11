@@ -1,0 +1,12 @@
+import javax.swing.*;
+public class Check_Box {
+    public static void main(String [] args){
+        JFrame f=new JFrame();
+        JCheckBox c=new JCheckBox("Name");
+        c.setBounds(100,200,50,50);
+        f.add(c);
+        c.setSize(400,400);
+        f.setLayout(null);
+        f.setVisible(true);
+    }
+}
